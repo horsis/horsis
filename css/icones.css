@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "horsiswebfont";
+  src:url("../fonts/horsiswebfont.eot");
+  src:url("../fonts/horsiswebfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/horsiswebfont.woff") format("woff"),
+    url("../fonts/horsiswebfont.ttf") format("truetype"),
+    url("../fonts/horsiswebfont.svg#horsiswebfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "horsiswebfont" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="hi-"]:before,
+[class*=" hi-"]:before {
+  font-family: "horsiswebfont" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hi-medicamento:before {
+  content: "a";
+}
+.hi-seringa:before {
+  content: "b";
+}
+.hi-veterinario:before {
+  content: "c";
+}
+.hi-midias:before {
+  content: "e";
+}
+.hi-pessoa:before {
+  content: "f";
+}
+.hi-pessoas:before {
+  content: "g";
+}
+.hi-pessoa-add:before {
+  content: "h";
+}
+.hi-macho:before {
+  content: "i";
+}
+.hi-femea:before {
+  content: "j";
+}
+.hi-genealogia:before {
+  content: "k";
+}
+.hi-pelagem:before {
+  content: "l";
+}
+.hi-historico:before {
+  content: "n";
+}
+.hi-pessoas-o:before {
+  content: "o";
+}
+.hi-globo:before {
+  content: "p";
+}
+.hi-checklist:before {
+  content: "q";
+}
+.hi-coracao:before {
+  content: "r";
+}
+.hi-ampulheta:before {
+  content: "s";
+}
+.hi-microscopio:before {
+  content: "t";
+}
+.hi-salvar:before {
+  content: "u";
+}
+.hi-contato:before {
+  content: "v";
+}
+.hi-tag:before {
+  content: "w";
+}
+.hi-tema:before {
+  content: "x";
+}
+.hi-cavalo:before {
+  content: "z";
+}
+.hi-dieta:before {
+  content: "A";
+}
+.hi-abccmm:before {
+  content: "B";
+}
+.hi-leilao:before {
+  content: "C";
+}
+.hi-calendario:before {
+  content: "D";
+}
+.hi-calendario-o:before {
+  content: "E";
+}
+.hi-racao:before {
+  content: "F";
+}
+.hi-treinamento:before {
+  content: "G";
+}
+.hi-financeiro:before {
+  content: "H";
+}
+.hi-reproducao:before {
+  content: "I";
+}
+.hi-racao-o:before {
+  content: "J";
+}
+.hi-entradas-saidas:before {
+  content: "m";
+}
+.hi-cavalo-o:before {
+  content: "y";
+}
+.hi-medida:before {
+  content: "K";
+}
+.hi-pasto:before {
+  content: "d";
+}
+.hi-competicoes:before {
+  content: "L";
+}
+.hi-cronometro:before {
+  content: "M";
+}
+.hi-checklist-o:before {
+  content: "N";
+}
+.hi-semen:before {
+  content: "O";
+}
+.hi-reproducao-o:before {
+  content: "P";
+}
+.hi-veterinario-o:before {
+  content: "Q";
+}
+.hi-comunicado:before {
+  content: "R";
+}
+.hi-nascimento:before {
+  content: "S";
+}
