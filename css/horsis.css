@@ -102,3 +102,88 @@ md-inline-grid-icon[icon=facebook] {
 md-inline-grid-icon[icon=twitter] {
     background-image: url('data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDhweCINCgkgaGVpZ2h0PSI0OHB4IiB2aWV3Qm94PSIwIDAgNDggNDgiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDQ4IDQ4IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnIGlkPSJIZWFkZXIiPg0KCTxnPg0KCQk8cmVjdCB4PSItODM4IiB5PSItOTUyIiBmaWxsPSJub25lIiB3aWR0aD0iMTQwMCIgaGVpZ2h0PSIzNjAwIi8+DQoJPC9nPg0KPC9nPg0KPGcgaWQ9IkxhYmVsIj4NCjwvZz4NCjxnIGlkPSJJY29uIj4NCgk8Zz4NCgkJPGc+DQoJCQk8cGF0aCBmaWxsPSIjN2Q3ZDdkIiBkPSJNNDAsNEg4QzUuOCw0LDQsNS44LDQsOGwwLDMyYzAsMi4yLDEuOCw0LDQsNGgzMmMyLjIsMCw0LTEuOCw0LTRWOEM0NCw1LjgsNDIuMiw0LDQwLDR6IE0zNS40LDE4LjcNCgkJCQljLTAuMSw5LjItNiwxNS42LTE0LjgsMTZjLTMuNiwwLjItNi4zLTEtOC42LTIuNWMyLjcsMC40LDYtMC42LDcuOC0yLjJjLTIuNi0wLjMtNC4yLTEuNi00LjktMy44YzAuOCwwLjEsMS42LDAuMSwyLjMtMC4xDQoJCQkJYy0yLjQtMC44LTQuMS0yLjMtNC4yLTUuM2MwLjcsMC4zLDEuNCwwLjYsMi4zLDAuNmMtMS44LTEtMy4xLTQuNy0xLjYtNy4yYzIuNiwyLjksNS44LDUuMywxMSw1LjZjLTEuMy01LjYsNi4xLTguNiw5LjItNC45DQoJCQkJYzEuMy0wLjMsMi40LTAuOCwzLjQtMS4zYy0wLjQsMS4zLTEuMiwyLjItMi4yLDIuOWMxLjEtMC4xLDIuMS0wLjQsMi45LTAuOEMzNy41LDE2LjksMzYuNCwxNy45LDM1LjQsMTguN3oiLz4NCgkJPC9nPg0KCQk8Zz4NCgkJCTxyZWN0IGZpbGw9Im5vbmUiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIvPg0KCQk8L2c+DQoJPC9nPg0KPC9nPg0KPGcgaWQ9IkdyaWQiIGRpc3BsYXk9Im5vbmUiPg0KCTxnIGRpc3BsYXk9ImlubGluZSI+DQoJCTxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwRTVGRiIgc3Ryb2tlLXdpZHRoPSIwLjEiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjQyIiB5MT0iLTk1MiIgeDI9IjQyIiB5Mj0iMjYwMCIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K');
 }
+
+
+
+
+/*#region Splash */
+#splash-page {
+    z-index: 99999 !important;
+}
+
+    #splash-page .bar {
+        width: 100%;
+    }
+
+.page-splash {
+    z-index: 99999 !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    opacity: .9;
+    pointer-events: auto;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+
+.page-splash-message {
+    text-align: center;
+    margin: 20% auto 0 auto;
+    font-size: 400%;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    -webkit-text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F58A00;
+    padding: 0;
+}
+
+    .page-splash-message.page-splash-message-subtle {
+        margin: 30% auto 0 auto;
+        font-size: 200%;
+    }
+
+.flag-haschanges {
+    position: fixed !important;
+    display: inline;
+}
+
+.fa-asterisk.fa-asterisk-large {
+    font-size: 180%;
+    vertical-align: middle;
+    color: #F58A00;
+}
+
+.fa-asterisk.fa-asterisk-alert {
+    color: #F58A00;
+}
+
+.fa-asterisk-inline {
+    padding: 0 4px 0 0;
+}
+
+
+.progress,
+.page-progress-bar {
+    margin: 30px 10% !important;
+}
+
+.spinner {
+    margin: 20% auto 0 auto;
+    left: auto;
+    top: auto !important;
+}
+/*#endregion*/
