@@ -79,6 +79,10 @@
     width: 48px;
 }
 
+.horsis-white {
+    color: #FFF;
+}
+
 md-inline-grid-icon[icon=hangout] {
     background-image: url('data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDhweCINCgkgaGVpZ2h0PSI0OHB4IiB2aWV3Qm94PSIwIDAgNDggNDgiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDQ4IDQ4IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnIGlkPSJIZWFkZXIiPg0KCTxnPg0KCQk8cmVjdCB4PSItODM4IiB5PSItMjIzMiIgZmlsbD0ibm9uZSIgd2lkdGg9IjE0MDAiIGhlaWdodD0iMzYwMCIvPg0KCTwvZz4NCjwvZz4NCjxnIGlkPSJMYWJlbHMiPg0KPC9nPg0KPGcgaWQ9Ikljb24iPg0KCTxnPg0KCQk8cGF0aCBmaWxsPSIjMTU5RjVDIiBkPSJNMjMsNEMxMy42LDQsNiwxMS42LDYsMjFzNy42LDE3LDE3LDE3aDF2N2M5LjctNC43LDE2LTE1LDE2LTI0QzQwLDExLjYsMzIuNCw0LDIzLDR6IE0yMiwyMmwtMiw0aC0zbDItNGgtM3YtNmg2VjIyeg0KCQkJIE0zMCwyMmwtMiw0aC0zbDItNGgtM3YtNmg2VjIyeiIvPg0KCQk8cmVjdCB4PSIwIiBmaWxsPSJub25lIiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiLz4NCgk8L2c+DQo8L2c+DQo8ZyBpZD0iR3JpZCIgZGlzcGxheT0ibm9uZSI+DQoJPGcgZGlzcGxheT0iaW5saW5lIj4NCgkJPGxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBFNUZGIiBzdHJva2Utd2lkdGg9IjAuMSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiB4MT0iNDIiIHkxPSItMjIzMiIgeDI9IjQyIiB5Mj0iMTMyMCIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K');
 }
@@ -104,86 +108,3 @@ md-inline-grid-icon[icon=twitter] {
 }
 
 
-
-
-/*#region Splash */
-#splash-page {
-    z-index: 99999 !important;
-}
-
-    #splash-page .bar {
-        width: 100%;
-    }
-
-.page-splash {
-    z-index: 99999 !important;
-    position: fixed !important;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #333;
-    opacity: .9;
-    pointer-events: auto;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transition: opacity 0.3s linear;
-    -moz-transition: opacity 0.3s linear;
-    -o-transition: opacity 0.3s linear;
-    transition: opacity 0.3s linear;
-}
-
-.page-splash-message {
-    text-align: center;
-    margin: 20% auto 0 auto;
-    font-size: 400%;
-    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    -webkit-text-shadow: 2px 2px #000000;
-    text-shadow: 2px 2px #000000;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #F58A00;
-    padding: 0;
-}
-
-    .page-splash-message.page-splash-message-subtle {
-        margin: 30% auto 0 auto;
-        font-size: 200%;
-    }
-
-.flag-haschanges {
-    position: fixed !important;
-    display: inline;
-}
-
-.fa-asterisk.fa-asterisk-large {
-    font-size: 180%;
-    vertical-align: middle;
-    color: #F58A00;
-}
-
-.fa-asterisk.fa-asterisk-alert {
-    color: #F58A00;
-}
-
-.fa-asterisk-inline {
-    padding: 0 4px 0 0;
-}
-
-
-.progress,
-.page-progress-bar {
-    margin: 30px 10% !important;
-}
-
-.spinner {
-    margin: 20% auto 0 auto;
-    left: auto;
-    top: auto !important;
-}
-/*#endregion*/
