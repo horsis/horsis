@@ -193,11 +193,11 @@ md-inline-grid-icon[icon=twitter] {
     }
 
         .horsis-static-tabs [role="tabpanel"].ng-leave.ng-leave-active, .horsis-static-tabs [role="tabpanel"].ng-enter {
-            top: -300px;
+            opacity: 0;
         }
 
             .horsis-static-tabs [role="tabpanel"].ng-leave, .horsis-static-tabs [role="tabpanel"].ng-enter.ng-enter-active {
-                top: 0;
+                opacity: 1;
             }
 
         .horsis-static-tabs [role="tabpanel"].ng-leave {
