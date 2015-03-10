@@ -1,4 +1,10 @@
-﻿
+﻿@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+.horsis-site {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .horsis-body {
     width: 100%;
     height: 100%;
@@ -8,6 +14,7 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed !important;
 }
 
 .horsis-footer {
